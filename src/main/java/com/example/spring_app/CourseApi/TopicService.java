@@ -10,11 +10,11 @@ public class TopicService {
     @Autowired
     private TopicRepository topicRepository;
 
-    private List<Topic> topics = new ArrayList<>(Arrays.asList(
+    /*private List<Topic> topics = new ArrayList<>(Arrays.asList(
             new Topic("spring","spring framework","description"),
             new Topic("wassup","gang","wassup description"),
             new Topic("hello","world","hello description")
-        ));
+        ));*/
 
     public List<Topic> getAllTopics(){
         //return topics;
